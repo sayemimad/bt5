@@ -1,0 +1,86 @@
+.box{
+  background-color: black;
+  min-height: 100px;
+ 
+
+}
+
+
+.row{
+  
+  padding-top: 20px;
+}
+.overlay{
+
+  padding-top: 30px;
+}
+.goal{
+background-color: yellowgreen;
+min-height: 100px;
+}
+.b{
+
+  min-height: 100px;
+  background-color: blue;
+}
+.c{
+ min-height: 100px;
+  background-color: blueviolet;
+}
+.d{
+
+ min-height: 100px;
+  background-color: firebrick;
+
+}
+.e{
+
+background-color: yellowgreen;
+min-height: 300px;
+
+}
+.b_img img{
+
+padding-left: 122px;
+
+}
+.box_2{
+  position: relative;
+  width: 100%;
+  border: 2px solid red;
+}
+.box_2 img{
+  width: 100%;
+  height: auto;
+}
+.o_2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3da13773;
+  opacity: 0;
+  transition: .4s;
+}
+.o_2:hover{
+  opacity: 1;
+}
+.o_2 h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  color: white;
+  text-align: center;
+  
+}
+
+.x{
+background-color: yellowgreen;
+min-height: 300px;
+  
+}
